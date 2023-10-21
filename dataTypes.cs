@@ -19,11 +19,14 @@ namespace cs
 
             double gpa = 0.27;
 
+            bool isCorrect = true;
+
 
             Console.WriteLine("Country: " + country);
             Console.WriteLine("Letter: " + letter);
             Console.WriteLine("Number: " + number);
             Console.WriteLine("GPA: " + gpa);
+            Console.WriteLine("TF: " + isCorrect);
 
         }
     }
